@@ -34,10 +34,11 @@ The Hospital Management System is a comprehensive web-based application designed
 
 ## Team Members
 This project is collaboratively developed by the following team members:
+
 1. **Bui Xuan Thang** - Project Manager
    - Responsible for overall project coordination, task allocation, and timeline management.
 
-2. **Nguyen Tuan Huy** - Backend Developer
+2. **Duong Thanh Phat** - Backend Developer
    - Focused on building RESTful APIs, database design, and server-side logic.
 
 3. **Nguyen Dac Thang** - Frontend Developer
@@ -46,7 +47,7 @@ This project is collaboratively developed by the following team members:
 4. **Nguyen Ngoc Quy** - QA Engineer
    - Ensures the quality of the application through rigorous testing and debugging.
 
-5. **Duong Thanh Phat** - DevOps Engineer
+5. **Nguyen Tuan Huy** - DevOps Engineer
    - Responsible for CI/CD pipeline setup, server management, and application deployment.
 
 6. **Pham Dinh Hao** - UX/UI Designer
