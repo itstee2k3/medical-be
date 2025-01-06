@@ -49,6 +49,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/src/view/serverRunning.html"));
 });
 
+app.get("/xthang",(res,req)=>{
+  res.json({message:"Hello with xthang"});
+})
+
 const port = 5000;
 const portSocket = 3000;
 const { createServer } = require("http");
