@@ -34,18 +34,24 @@ The Hospital Management System is a comprehensive web-based application designed
 
 ## Team Members
 This project is collaboratively developed by the following team members:
-1. **Nguyen Van A** - Project Manager
+1. **Bui Xuan Thang** - Project Manager
    - Responsible for overall project coordination, task allocation, and timeline management.
 
-2. **Tran Thi B** - Backend Developer
+2. **Nguyen Tuan Huy** - Backend Developer
    - Focused on building RESTful APIs, database design, and server-side logic.
 
-3. **Le Van C** - Frontend Developer
+3. **Nguyen Dac Thang** - Frontend Developer
    - Responsible for designing and implementing the user interface using React.js.
 
-4. **Pham Thi D** - QA Engineer
+4. **Nguyen Ngoc Quy** - QA Engineer
    - Ensures the quality of the application through rigorous testing and debugging.
 
+5. **Duong Thanh Phat** - DevOps Engineer
+   - Responsible for CI/CD pipeline setup, server management, and application deployment.
+
+6. **Pham Dinh Hao** - UX/UI Designer
+   - Focused on designing user-friendly and accessible interfaces for the application.
+     
 ## Installation and Setup
 1. Clone the repository:
    ```bash
@@ -57,12 +63,30 @@ This project is collaboratively developed by the following team members:
    cd medical-be
    ```
 
-3. Build and run the application using Docker Compose:
+### Without Docker
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Create an admin account:
+   ```bash
+   npm creataAdmin
+   ```
+   *This creates a user admin for login. Account: admin@gmail.com / Password: 123456.*
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### With Docker
+1. Build and run the application using Docker Compose:
    ```bash
    docker-compose up -d
    ```
 
-4. Access the application at `http://localhost:3000`.
+2. Access the application at `http://localhost:3000`.
 
 ## Contribution Guidelines
 We welcome contributions from all team members. Please follow these steps:
@@ -77,8 +101,9 @@ We welcome contributions from all team members. Please follow these steps:
 
 ## Contact
 For any queries or support, please contact:
-- Email: support@hospitalmanagement.com
-- Phone: +84 123 456 789
+- Email: xthang.lib@gmail.com
+- Phone: +84 522 383 757
 
 ---
 We aim to deliver a robust and user-friendly hospital management solution that meets the needs of modern healthcare facilities.
+
