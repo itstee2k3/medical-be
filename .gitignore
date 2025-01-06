@@ -2,5 +2,9 @@ node_modules
 
 !uploads/LOCAL_FILE_UPLOADS
 package-lock.json
-
-.DS_Store  
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore

@@ -49,7 +49,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/src/view/serverRunning.html"));
 });
 
-const port = 8000;
+const port = 5000;
 const portSocket = 3000;
 const { createServer } = require("http");
 const { Server } = require("socket.io");
