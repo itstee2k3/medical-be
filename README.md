@@ -49,12 +49,12 @@ This project is collaboratively developed by the following team members:
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/hospital-management-system.git
+   git clone https://github.com/itstee2k3/medical-be.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd hospital-management-system
+   cd medical-be
    ```
 
 3. Build and run the application using Docker Compose:
