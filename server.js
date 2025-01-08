@@ -49,6 +49,9 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/src/view/serverRunning.html"));
 });
 
+app.get("/xthang", (req, res) => {
+  res.json({message: "Hello"});
+});
 
 
 const port = 5000;
